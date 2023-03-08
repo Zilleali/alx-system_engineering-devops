@@ -1,1 +1,1 @@
-pwd
+Display a long list of the contents of your current directory.
