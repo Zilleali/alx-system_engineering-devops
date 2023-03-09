@@ -1,0 +1,6 @@
+#!/bin/bash
+# Change owner and group owner for files
+sudo chown -R vincent:staff ./*
+
+# Change owner and group owner for directories
+sudo chown -R vincent:staff ./*/

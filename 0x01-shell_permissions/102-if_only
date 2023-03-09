@@ -1,0 +1,9 @@
+#!/bin/bash
+# Check if the file is owned by guillaume
+if [[ $(stat -c '%U' hello) == "guillaume" ]]; then
+    # Change owner to betty
+    sudo chown betty hello
+    echo "Ownership of hello has been changed to betty."
+else
+    echo "hello is not owned by guillaume."
+fi
